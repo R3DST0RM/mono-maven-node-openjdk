@@ -1,6 +1,6 @@
 ## Dockerized Java (openJDK) 11, Maven 3.x, and Node 12.x environment for full stack Java web app builds
 
-An Ubuntu 18.04 docker container with Java (openJDK) 11, Maven 3.x, and Node 12
+An Ubuntu 18.04 docker container with Java (openJDK) 11, Maven 3.x, Git and Node 12
 
 ## Versions
 
