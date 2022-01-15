@@ -8,8 +8,6 @@ RUN apt-get install -y \
   openjdk-11-jdk \
   maven
 
-ENV MONO_VERSION 6.12.0.122
-
 RUN apt-get update \
   && apt-get install -y --no-install-recommends gnupg dirmngr ca-certificates \
   && rm -rf /var/lib/apt/lists/* \
