@@ -21,7 +21,7 @@ RUN apt-get update \
 
 RUN echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" > /etc/apt/sources.list.d/mono-official-stable.list \
   && apt-get update \
-  && apt-get install -y mono-runtime mono-devel ca-certificates-mono \
+  && apt-get install -y mono-runtime mono-complete ca-certificates-mono \
   && rm -rf /var/lib/apt/lists/* /tmp/*
 
 CMD /bin/bash 
