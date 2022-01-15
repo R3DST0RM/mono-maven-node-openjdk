@@ -10,7 +10,7 @@ An Ubuntu 18.04 docker container with Java (openJDK) 11, Maven 3.x and Node 12
 | npm     | 6.9.0   |
 | OpenJDK | 11.0.3  |
 | Maven   | 3.6.0   |
-| Mono    | TBD     |
+| Mono    | 6     |
 
 ## Availability
 
