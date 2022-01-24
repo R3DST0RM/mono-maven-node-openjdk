@@ -58,18 +58,20 @@ This release contains the same versions as before, the only difference is that U
 | OpenJDK | 11.0.13    |
 | Maven   | 3.6.0      |
 | Mono    | 6.12.0.122 |
+| Ubuntu  | 20.04 (Focal) |
 </details>
 
 <details>
   <summary>2.0.0</summary>
 
-| Library/Tool | Version    |
-|---------|------------|
-| Node    | 16.13.2    |
-| npm     | 8.1.2      |
-| OpenJDK | 11.0.13    |
-| Maven   | 3.6.0      |
-| Mono    | 6.12.0.122 |
+| Library/Tool | Version      |
+|---------|--------------|
+| Node    | 16.13.2      |
+| npm     | 8.1.2        |
+| OpenJDK | 11.0.13      |
+| Maven   | 3.6.0        |
+| Mono    | 6.12.0.122   |
+| Ubuntu  | 18.04 |
 </details>
 
 <details>
@@ -82,4 +84,5 @@ This release contains the same versions as before, the only difference is that U
 | OpenJDK | 11.0.13  |
 | Maven   | 3.6.0   |
 | Mono    | 6.12.0.122     |
+| Ubuntu  | 18.04 |
 </details>
