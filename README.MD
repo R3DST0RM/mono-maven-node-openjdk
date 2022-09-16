@@ -8,11 +8,11 @@ If you are missing an SDK or tool, which should be bundled within this container
 
 | Library/Tool | Version       |
 |--------------|---------------|
-| Node         | 16.13.2       |
-| npm          | 8.1.2         |
-| OpenJDK      | 11.0.13       |
-| Maven        | 3.6.0         |
-| Mono         | 6.12.0.122    |
+| Node         | 16.17.0       |
+| npm          | 8.15.0        |
+| OpenJDK      | 11.0.16       |
+| Maven        | 3.6.3         |
+| Mono         | 6.12.0.182    |
 | Ubuntu       | 20.04 (Focal) |
 
 # Usage 
