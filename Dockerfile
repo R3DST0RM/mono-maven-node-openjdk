@@ -1,5 +1,6 @@
 FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y curl
+RUN apt-get update && apt-get install -y ssh
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 
 RUN apt-get install -y nodejs
@@ -23,5 +24,7 @@ RUN echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" >
   && apt-get update \
   && apt-get install -y mono-runtime mono-complete ca-certificates-mono \
   && rm -rf /var/lib/apt/lists/* /tmp/*
+
+RUN apt-get update && apt-get install -y git
 
 CMD /bin/bash
