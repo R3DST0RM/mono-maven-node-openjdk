@@ -9,11 +9,11 @@ If you are missing an SDK or tool, which should be bundled within this container
 | Library/Tool | Version       |
 |--------------|---------------|
 | Node         | 18.16.0       |
-| npm          | 9.4.0         |
-| OpenJDK      | 17.x.x        |
-| Maven        | 3.6.3         |
+| npm          | 9.5.1         |
+| OpenJDK      | 17.0.6        |
+| Maven        | 3.9.1         |
 | Mono         | 6.12.0.182    |
-| Ubuntu       | 20.04 (Focal) |
+| Ubuntu       | 22.10 (Kinetic) |
 
 # Usage 
 
