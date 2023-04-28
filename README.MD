@@ -8,9 +8,9 @@ If you are missing an SDK or tool, which should be bundled within this container
 
 | Library/Tool | Version       |
 |--------------|---------------|
-| Node         | 16.17.0       |
-| npm          | 8.15.0        |
-| OpenJDK      | 11.0.16       |
+| Node         | 18.16.0       |
+| npm          | 9.4.0         |
+| OpenJDK      | 17.x.x        |
 | Maven        | 3.6.3         |
 | Mono         | 6.12.0.182    |
 | Ubuntu       | 20.04 (Focal) |
@@ -45,6 +45,21 @@ MIT
 ## Previous versions
 
 Below you will find a list of docker tags and their respective installed versions of the above mentioned tools.
+
+<details>
+  <summary>2.2.0</summary>
+
+This release contains the following versions
+
+| Library/Tool | Version       |
+|--------------|---------------|
+| Node         | 16.17.0       |
+| npm          | 8.15.0        |
+| OpenJDK      | 11.0.16       |
+| Maven        | 3.6.3         |
+| Mono         | 6.12.0.182    |
+| Ubuntu       | 20.04 (Focal) |
+</details>
 
 <details>
   <summary>2.1.0</summary>

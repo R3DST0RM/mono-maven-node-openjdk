@@ -1,12 +1,12 @@
 FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y curl
 RUN apt-get update && apt-get install -y ssh
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
 
 RUN apt-get install -y nodejs
 RUN DEBIAN_FRONTEND="noninteractive" TZ="Europe/Berlin" apt-get install -y \
   build-essential \
-  openjdk-11-jdk \
+  openjdk-17-jdk \
   maven
 
 RUN apt-get update \
